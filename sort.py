@@ -47,7 +47,8 @@ def merge_sort(big_list, head=0, tail=-1, ascending=True):
             new_list[i:] = first_half[curr_1st:]
             i = len(new_list) # Set stopping condition
         else:    
-            # Check if current element in first list is bigger than current                 # element in the second list        
+            # Check if current element in first list is bigger than current                 
+            # element in the second list        
             first_bigger = first_half[curr_1st] >= second_half[curr_2nd]
             if (ascending == first_bigger):
                 new_list[i] = second_half[curr_2nd]
