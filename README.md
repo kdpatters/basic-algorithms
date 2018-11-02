@@ -2,7 +2,7 @@
 A collection of basic algorithms and data structures in Python.
 
 ## sort.py
-Contains sorting algorithms.
+Contains implementations of common sorting algorithms. [Background](https://brilliant.org/wiki/sorting-algorithms/)
 
 ## dynammic_programming.py
 Contains an example of dynamic programming.
